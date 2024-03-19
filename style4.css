@@ -1,0 +1,88 @@
+.container{
+    border: 1px solid green;
+    margin: 200px;
+    position: fixed;
+    width: 700px;
+    margin-top: 10px;
+}
+.haut{
+    background-color: red;
+    padding:2px;
+    border: 1px solid green;
+    text-align: center;
+}
+.menu{
+    background-color: blue;
+    padding-top: 1px;
+    
+}
+.milieu{
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 0px; /*espace entre les colones*/
+    background-color: yellow;
+
+}
+.milieu .g{
+    background-color: violet;
+    padding-top: 36.9rem;
+    padding-right: 5rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.milieu .i{
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+.milieu .j{
+    background-color: gray;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+.milieu .j{
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding-right: 1rem;
+    margin-bottom: 4rem;
+}
+.milieu .k{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+    padding-right: 1rem;
+    margin-bottom: 4rem;
+}
+.milieu .l{
+    background-color: rgb(129, 92, 66);
+    margin-bottom: 4rem;
+}
+.milieu .m{
+    background-color: gray;
+    margin-bottom: 4rem;
+}
+.milieu .d{
+    background-color: rgb(19, 188, 19);
+    border: 1px solid black;
+    text-align: center;
+    padding-right: 5rem;
+}
+.bas{
+    background-color: orange;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+
+

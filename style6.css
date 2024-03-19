@@ -1,0 +1,63 @@
+.content{
+    position: fixed;
+    margin: 200px;
+    margin-top: 20px;
+    background-color:white;
+    width: 800px;
+    height: 800px;
+}
+.content .cercle{
+    background-color: white;
+    position: relative;
+    left: 200px;
+    top: 120px;
+    width: 400px;
+    height: 50px;
+    margin-right: 10px;
+    padding-bottom: 400px;
+    display: flex;
+}
+.content .cercle .circle{
+    background-color: rgb(183, 183, 180);
+    width: 70px;
+    height: 30px;
+    position: relative;
+    left: 15rem;
+    top: 10px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+.content .cercle .carre{
+    background-color: rgb(183, 183, 180);
+    position: relative;
+    left: 1px;
+    top: 30px;
+    width: 400px;
+    height: 250px;
+    margin-right: 10px;
+    display: flex;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.content .down{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 17rem;
+    bottom: 3rem;
+    display: flex;
+}
+
+.content .down .cerc{
+    background-color: rgb(183, 183, 180);
+    width: 45px;
+    height: 35px;
+    position: relative;
+    left: 5rem;
+    bottom: 1rem;
+    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 90%;
+    
+}

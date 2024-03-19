@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BOX</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+    }
+    .child1 {
+      position: relative;
+      height: 25%;
+      width: 25%;
+      background-color: blue;
+    }
+    .child2{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background-color: gray;
+      height: 25%;
+      width: 25%;
+    }
+
+    .scroll-stop {
+        position: relative;
+        height: 100vh; 
+        overflow-y: auto;
+        background-color: lightblue;
+    }
+
+    .stop-point {
+        position: absolute;
+        top: 500px; 
+        width: 100%;
+        
+    }
+
+
+    .content {
+      background-color: lightblue;
+      position: relative;
+      height: 200vh;
+    }
+
+    .scroll-stop::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* .scroll-stop {
+        scrollbar-width: none;
+    } */
+</style>
+</head>
+<body>
+    <div class="scroll-stop">
+        <div class="stop-point">
+            <div class="content">
+                <div class="child1"></div>
+                <div class="child2"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

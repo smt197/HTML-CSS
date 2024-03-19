@@ -1,0 +1,84 @@
+.container{
+    border: 1px solid green;
+    margin: 200px;
+    position: fixed;
+    width: 800px;
+    box-sizing: border-box;
+}
+.haut{
+    background-color: orange;
+    padding:2px;
+    border: 1px solid green;
+}
+.menu{
+    background-color: blue;
+    padding-top: 1px;
+    
+}
+.milieu{
+    padding: 200px;
+    margin: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 200px;
+    border: 2px solid black;
+}
+.milieu .case1{
+    width: 100px;
+    height: 100px;
+    padding: 3rem;
+    padding-right: 15rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+
+}
+.milieu .case1 .a{
+    background-color: gray;
+    height: 80%;
+    width: 800%;
+    position: relative;
+    right: 2.6rem;
+    bottom: 2.6rem;
+}
+
+.milieu .case1 .b{
+    background-color: gray;
+    position: relative;
+    width: 800%;
+    height: 80%;
+    left: 17.8rem;
+    bottom: 2.6rem;
+}
+.milieu .case1 .c{
+    background-color: gray;
+    position: relative;
+    width: 800%;
+    height: 80%;
+    left: 16.2rem;
+    top: 3.9rem;
+}
+.milieu .case1 .d{
+    background-color: gray;
+    position: relative;
+    width: 800%;
+    height: 80%;
+    top: 3.9rem;
+    right: 7.4rem;
+}
+
+
+.milieu .case2{
+    width: 100px;
+    height: 100px;
+    padding: 3rem;
+    padding-right: 15rem;
+    border: 1px solid black;
+}
+
+.bas{
+    background-color: orange;
+    padding: 2px;
+    border: 1px solid green;
+}

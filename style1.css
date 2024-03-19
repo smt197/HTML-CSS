@@ -1,0 +1,29 @@
+.container{
+    border: 1px solid green;
+    margin: 200px;
+}
+.haut{
+    background-color: orange;
+    padding:2px;
+    border: 1px solid green;
+}
+.menu{
+    background-color: blue;
+    padding-top: 1px;
+    
+}
+.milieu{
+    background-color: blue;
+    padding: 200px;
+    margin: 40px;
+    background-color: red; 
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 200px;
+    border: 2px solid green;
+}
+.bas{
+    background-color: orange;
+    padding: 2px;
+    border: 1px solid green;
+}

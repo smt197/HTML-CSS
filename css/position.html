@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Positions en CSS</title>
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .content {
+      position: relative;
+        height: 100vh; 
+        overflow-y: auto;
+        background-color: lightblue;
+    }
+    .child1 {
+      position: sticky;
+      top: 40px;
+      height: 20%;
+      width: 20%;
+      background-color: blue;
+    }
+    .child2{
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background-color: gray;
+      height: 20%;
+      width: 20%;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+      <div class="child1"></div>
+    <div class="child2"></div>
+  </div>
+</body>
+</html>

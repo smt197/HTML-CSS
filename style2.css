@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid green;
+}
+.haut{
+    background-color: orange;
+    padding:2px;
+    border: 1px solid green;
+}
+.menu{
+    background-color: blue;
+    padding-top: 1px;
+    
+}
+.milieu{
+    margin: 20px;
+    border: 2px solid black;
+    width: 90%;
+    height: 40vh;
+}
+.milieu .case1{
+    height: 50%;
+    display: flex;
+}
+.milieu .case2{
+    height: 50%;
+    display: flex;
+}
+.milieu .case1 .a{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+.milieu .case1 .b{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+}
+.milieu .case2 .c{
+    background-color: gray;
+    width: 50%;
+}
+.milieu .case2 .d{
+    background-color: magenta;
+    width: 50%;
+}
+
+
+.bas{
+    background-color: orange;
+    padding: 2px;
+    border: 1px solid green;
+}
